@@ -87,13 +87,29 @@ nav ul{
     position: absolute;
     top: 10px;
     left: 39.2%;
+    z-index: 1;
 }
-.rewiev-banner img{
+.sl_banner{
     margin-top: -3px;
     border: 0px;
 }
+/*Slick slider dots*/
+.slider__dots li {
+  display: inline-block;
+  background-color: #e0b977;
+  border-radius: 50%;
+  box-shadow: inset 1px 1px 5px rgb(119, 85, 47, 1);
+}
+.slider__dots .slick-active {
+    width: 18px;
+    height: 18px;
+    background-color: #7c5a43;
+    border: 3px double white;
+}
+
 .personal{
     display: flex;
+    margin-top: 20px;
     background: url(../img/ornament.gif) no-repeat;
     justify-content: center;
 }
